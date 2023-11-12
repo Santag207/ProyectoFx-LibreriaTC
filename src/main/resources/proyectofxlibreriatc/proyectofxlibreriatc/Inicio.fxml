@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofxlibreriatc.proyectofxlibreriatc.Controllers">
+    <children>
+        <AnchorPane prefHeight="213.0" prefWidth="1200.0" style="-fx-background-color: #4a7d4a;">
+            <children>
+                <Text fill="WHITE" layoutX="489.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" textAlignment="CENTER" wrappingWidth="222.669921875">
+                    <font>
+                        <Font name="Sitka Text" size="42.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="589.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="a">
+                    <font>
+                        <Font name="Sitka Text" size="42.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="491.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HoloBooks">
+                    <font>
+                        <Font name="Sitka Text" size="44.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+        <Button layoutX="527.0" layoutY="560.0" mnemonicParsing="false" onAction="#MenuS" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" text="Menu">
+            <font>
+                <Font name="Sitka Text" size="30.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
