@@ -9,7 +9,7 @@
     <children>
         <AnchorPane layoutX="226.0" prefHeight="110.0" prefWidth="974.0" style="-fx-background-color: #4a7d4a;">
             <children>
-                <Text fill="WHITE" layoutX="301.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Libros de Historia">
+                <Text fill="WHITE" layoutX="378.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HoloBooks">
                     <font>
                         <Font name="Sitka Text" size="44.0" />
                     </font>
@@ -18,32 +18,37 @@
         </AnchorPane>
         <AnchorPane prefHeight="700.0" prefWidth="228.0" style="-fx-background-color: #1b2922;">
             <children>
-                <Button layoutY="103.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #b39464;" text="Busqueda por Titulo" textAlignment="CENTER" textFill="WHITE">
+                <Button layoutY="111.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="227.0" style="-fx-background-color: #b39464;" text="Búsqueda por Título" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
-                <Button layoutY="614.0" mnemonicParsing="false" onAction="#InicioS" onMouseDragEntered="#entraraMouseS" onMouseDragExited="#salidaMouseS" onMouseEntered="#entraraMouse" onMouseExited="#salidaMouse" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Inicio" textFill="WHITE">
+                <Button layoutY="614.0" mnemonicParsing="false" onAction="#InicioS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Inicio" textFill="WHITE">
                     <font>
                         <Font name="Sitka Text" size="30.0" />
                     </font>
                 </Button>
-                <Button layoutX="1.0" layoutY="361.0" mnemonicParsing="false" onAction="#botonInicioA" onMouseDragEntered="#entraraMouseS" onMouseDragExited="#salidaMouseS" onMouseEntered="#entraraMouse" onMouseExited="#salidaMouse" prefHeight="86.0" prefWidth="226.0" style="-fx-background-color: #1b2922;" text="Busqueda de Manaera Manual" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                <Button mnemonicParsing="false" onAction="#MenuS" prefHeight="110.0" prefWidth="227.0" style="-fx-background-color: #000000;" text="Menu" textFill="WHITE">
+                    <font>
+                        <Font name="Sitka Text" size="30.0" />
+                    </font>
+                </Button>
+                <Button layoutX="1.0" layoutY="361.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Búsqueda de Manera Manual" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
-                <Button layoutX="1.0" layoutY="275.0" mnemonicParsing="false" onAction="#busquedaClasificacionS" onMouseDragEntered="#entraraMouseS" onMouseDragExited="#salidaMouseS" onMouseEntered="#entraraMouse" onMouseExited="#salidaMouse" prefHeight="86.0" prefWidth="226.0" style="-fx-background-color: #1b2922;" text="Busqueda por Clasificacion" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                <Button layoutX="1.0" layoutY="275.0" mnemonicParsing="false" onAction="#busquedaClasificacionS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Búsqueda por Clasificación" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
-                <Button layoutX="1.0" layoutY="189.0" mnemonicParsing="false" onAction="#busquedaAutorS" onMouseDragEntered="#entraraMouseS" onMouseDragExited="#salidaMouseS" onMouseEntered="#entraraMouse" onMouseExited="#salidaMouse" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Busqueda por Autor" textAlignment="CENTER" textFill="WHITE">
+                <Button layoutX="1.0" layoutY="189.0" mnemonicParsing="false" onAction="#busquedaAutorS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Búsqueda por Autor" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
-                <Button layoutY="447.0" mnemonicParsing="false" onAction="#agregarLibroS" onMouseDragEntered="#entraraMouseS" onMouseDragExited="#salidaMouseS" onMouseEntered="#entraraMouse" onMouseExited="#salidaMouse" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Agregar Libro" textAlignment="CENTER" textFill="WHITE">
+                <Button layoutY="447.0" mnemonicParsing="false" onAction="#agregarLibroS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Agregar Libro" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
                     </font>

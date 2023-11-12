@@ -18,12 +18,17 @@
         </AnchorPane>
         <AnchorPane prefHeight="700.0" prefWidth="228.0" style="-fx-background-color: #1b2922;">
             <children>
-                <Button layoutY="103.0" mnemonicParsing="false" onAction="#busquedaTituloS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Búsqueda por Título" textAlignment="CENTER" textFill="WHITE">
+                <Button layoutY="111.0" mnemonicParsing="false" onAction="#busquedaTituloS" prefHeight="78.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Búsqueda por Título" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
                 <Button layoutY="614.0" mnemonicParsing="false" onAction="#InicioS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Inicio" textFill="WHITE">
+                    <font>
+                        <Font name="Sitka Text" size="30.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#MenuS" prefHeight="110.0" prefWidth="227.0" style="-fx-background-color: #000000;" text="Menu" textFill="WHITE">
                     <font>
                         <Font name="Sitka Text" size="30.0" />
                     </font>
@@ -48,7 +53,6 @@
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
-            <Button layoutX="114.0" layoutY="544.0" mnemonicParsing="false" onAction="#busquedaTituloS" text="Prueba" />
             </children>
         </AnchorPane>
         <ImageView fitHeight="231.0" fitWidth="310.0" layoutX="449.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true" />

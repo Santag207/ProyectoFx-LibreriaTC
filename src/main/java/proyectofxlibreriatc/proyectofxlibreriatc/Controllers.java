@@ -63,7 +63,7 @@ public class Controllers {
 
     @FXML
     protected void busquedaTituloS(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("proyectofxlibreriatc/proyectofxlibreriatc/TituloS.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/proyectofxlibreriatc/proyectofxlibreriatc/TituloS.fxml"));
         stage = (Stage)((Button) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
@@ -100,6 +100,14 @@ public class Controllers {
     @FXML
     protected void agregarLibroS(ActionEvent event) throws IOException {
         root = FXMLLoader.load(getClass().getResource("/proyectofxlibreriatc/proyectofxlibreriatc/AgregarLibroS.fxml"));
+        stage = (Stage)((Button) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    protected void DatosLibroS(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("/proyectofxlibreriatc/proyectofxlibreriatc/DatosLibroS.fxml"));
         stage = (Stage)((Button) event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
