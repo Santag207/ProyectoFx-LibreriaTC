@@ -1,16 +1,24 @@
 package proyectofxlibreriatc.proyectofxlibreriatc;
 
+import entities.Menu;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.stage.Stage;
 import java.io.IOException;
+import java.net.URL;
+import java.util.List;
+import java.util.ResourceBundle;
 
-public class Controllers {
+public class Controllers implements Initializable{
     private Stage stage;
     private Scene scene;
     private Parent root;
@@ -112,6 +120,28 @@ public class Controllers {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+    }
+
+    //Lista Titulos
+        @FXML
+        private ListView<String> myListView;
+        @FXML
+        private Label myLabel;
+
+        Menu menu = new Menu();
+
+        @Override
+        public void initialize(URL arg0, ResourceBundle arg1) {
+            List<String> titulosLibros = menu.obtenerTodosLosTitulos();
+            myListView.getItems().addAll(titulosLibros);
+            myListView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
+                @Override
+                public void changed(ObservableValue<? extends String> observableValue, String s, String t1) {
+                    String currentTitle = myListView.getSelectionModel().getSelectedItem();
+                    myLabel.setText(currentTitle);
+                }
+            });
+        }
     }
 
 }

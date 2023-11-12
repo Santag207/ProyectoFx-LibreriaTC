@@ -1,5 +1,6 @@
 package entities;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -215,5 +216,18 @@ public class Menu {
             System.out.println();
         }
     }
+
+    // Añadir esta función en la clase Menu
+    public List<String> obtenerTodosLosTitulos() {
+        List<Libro> todosLosLibros = biblioteca.obtenerTodosLosLibros();
+        List<String> titulos = new ArrayList<>();
+
+        for (Libro libro : todosLosLibros) {
+            titulos.add(libro.getTitulo());
+        }
+
+        return titulos;
+    }
+
 
 }

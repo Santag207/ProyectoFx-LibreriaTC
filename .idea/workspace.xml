@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98390331-dcd2-4d69-9e43-b0aeeda56301" name="Changes" comment="Proyecto commit 3 - Solucion error Menu e inicio">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/DatosLibroS.fxml" afterDir="false" />
+    <list default="true" id="98390331-dcd2-4d69-9e43-b0aeeda56301" name="Changes" comment="Proyecto commit 3 - Solucion error cambio escenas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Controllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AgregarLibroS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AgregarLibroS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AutorS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AutorS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/ClasificacionS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/ClasificacionS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/Menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllersI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllersI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/DatosLibroS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/DatosLibroS.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/TituloS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/TituloS.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699824621465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Proyecto commit 3 - Solucion error cambio escenas">
+      <created>1699826473617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699826473617</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,14 +141,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Proyecto commit 2" />
     <MESSAGE value="Proyecto commit 3 - Solucion error Menu e inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto commit 3 - Solucion error Menu e inicio" />
+    <MESSAGE value="Proyecto commit 3 - Solucion error cambio escenas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto commit 3 - Solucion error cambio escenas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Controllers.java</url>
-          <line>24</line>
+          <line>32</line>
           <properties class="proyectofxlibreriatc.proyectofxlibreriatc.Controllers" method="entradaMouseI">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -152,7 +158,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Controllers.java</url>
-          <line>29</line>
+          <line>37</line>
           <properties class="proyectofxlibreriatc.proyectofxlibreriatc.Controllers" method="salidaMouseI">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -161,7 +167,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Controllers.java</url>
-          <line>34</line>
+          <line>42</line>
           <properties class="proyectofxlibreriatc.proyectofxlibreriatc.Controllers" method="entraraMouseS">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -170,7 +176,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Controllers.java</url>
-          <line>39</line>
+          <line>47</line>
           <properties class="proyectofxlibreriatc.proyectofxlibreriatc.Controllers" method="salidaMouseS">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
