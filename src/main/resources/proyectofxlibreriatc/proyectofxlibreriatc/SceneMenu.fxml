@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="proyectofxlibreriatc.proyectofxlibreriatc.SceneMenu"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane onDragDetected="#busquedaAutor" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofxlibreriatc.proyectofxlibreriatc.Controllers">
+   <children>
+      <Button alignment="CENTER" layoutX="63.0" layoutY="102.0" mnemonicParsing="false" onAction="#busquedaTitulo" prefHeight="63.0" prefWidth="158.0" style="-fx-background-color: #1d1d1d; -fx-region-border: #ffffff;" text="Busqueda por titulo" textAlignment="CENTER" textFill="WHITE" />
+      <Button alignment="CENTER" layoutX="62.0" layoutY="179.0" mnemonicParsing="false" onAction="#busquedaAutor" prefHeight="63.0" prefWidth="158.0" style="-fx-background-color: #1d1d1d; -fx-region-border: #ffffff;" text="Busqueda por Autor" textAlignment="CENTER" textFill="WHITE" />
+      <Button alignment="CENTER" layoutX="63.0" layoutY="263.0" mnemonicParsing="false" onAction="#busquedaClasificacion" prefHeight="63.0" prefWidth="158.0" style="-fx-background-color: #1d1d1d; -fx-region-border: #ffffff;" text="Busqueda por Clasificacion" textAlignment="CENTER" textFill="WHITE" />
+      <Button alignment="CENTER" layoutX="62.0" layoutY="350.0" mnemonicParsing="false" onAction="#busquedaManual" prefHeight="63.0" prefWidth="158.0" style="-fx-background-color: #1d1d1d; -fx-region-border: #ffffff;" text="Busqueda Manual" textAlignment="CENTER" textFill="WHITE" />
+      <TextFlow layoutX="516.0" layoutY="71.0" prefHeight="200.0" prefWidth="200.0" textAlignment="CENTER" />
+   </children>
 </AnchorPane>
