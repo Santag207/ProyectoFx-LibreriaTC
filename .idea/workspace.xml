@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98390331-dcd2-4d69-9e43-b0aeeda56301" name="Changes" comment="Proyecto commit 3 - Prueba1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllerAgregarLibroS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllerAutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllerClasificacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllerInicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllerTitulo.java" afterDir="false" />
+    <list default="true" id="98390331-dcd2-4d69-9e43-b0aeeda56301" name="Changes" comment="Proyecto commit 4 - Pantallas, metodos, falta error agregar manual no muestra demas escenas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllersI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/ControllersT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Scenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/proyectofxlibreriatc/proyectofxlibreriatc/Scenes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AgregarLibroS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AgregarLibroS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AutorS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/AutorS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/ClasificacionS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/ClasificacionS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/DatosLibroS.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/Inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/Inicio.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/Menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/Menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/TituloS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/proyectofxlibreriatc/proyectofxlibreriatc/TituloS.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699830873698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Proyecto commit 4 - Pantallas, metodos, falta error agregar manual no muestra demas escenas">
+      <created>1699850495540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699850495540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +152,8 @@
     <MESSAGE value="Proyecto commit 3 - Solucion error Menu e inicio" />
     <MESSAGE value="Proyecto commit 3 - Solucion error cambio escenas" />
     <MESSAGE value="Proyecto commit 3 - Prueba1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto commit 3 - Prueba1" />
+    <MESSAGE value="Proyecto commit 4 - Pantallas, metodos, falta error agregar manual no muestra demas escenas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto commit 4 - Pantallas, metodos, falta error agregar manual no muestra demas escenas" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
