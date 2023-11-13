@@ -39,4 +39,5 @@ public class Libro {
     public int getNlibros() {
         return Nlibros;
     }
+
 }

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofxlibreriatc.proyectofxlibreriatc.Controllers">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofxlibreriatc.proyectofxlibreriatc.ControllerClasificacion">
     <children>
         <AnchorPane layoutX="226.0" prefHeight="110.0" prefWidth="974.0" style="-fx-background-color: #4a7d4a;">
             <children>
-                <Text fill="WHITE" layoutX="378.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HoloBooks">
+                <Text fill="WHITE" layoutX="354.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VirtualBooks">
                     <font>
                         <Font name="Sitka Text" size="44.0" />
                     </font>
@@ -33,11 +32,6 @@
                         <Font name="Sitka Text" size="30.0" />
                     </font>
                 </Button>
-                <Button layoutX="1.0" layoutY="361.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Búsqueda de Manera Manual" textAlignment="CENTER" textFill="WHITE" wrapText="true">
-                    <font>
-                        <Font name="Sitka Text" size="21.0" />
-                    </font>
-                </Button>
                 <Button layoutX="1.0" layoutY="275.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #b39464;" text="Búsqueda por Clasificación" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
@@ -48,13 +42,48 @@
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
-                <Button layoutY="447.0" mnemonicParsing="false" onAction="#agregarLibroS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Agregar Libro" textAlignment="CENTER" textFill="WHITE">
+                <Button layoutY="361.0" mnemonicParsing="false" onAction="#agregarLibroS" prefHeight="86.0" prefWidth="227.0" style="-fx-background-color: #1b2922;" text="Agregar Libro" textAlignment="CENTER" textFill="WHITE">
                     <font>
                         <Font name="Sitka Text" size="21.0" />
                     </font>
                 </Button>
             </children>
         </AnchorPane>
-        <ImageView fitHeight="231.0" fitWidth="310.0" layoutX="449.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true" />
+        <ListView fx:id="myListView" layoutX="277.0" layoutY="262.0" prefHeight="380.0" prefWidth="521.0" style="-fx-background-color: #82817f;" />
+        <Label fx:id="label" alignment="CENTER" layoutX="277.0" layoutY="192.0" prefHeight="48.0" prefWidth="521.0" text="Selecciona un libro" textFill="WHITE">
+            <font>
+                <Font name="Harrington" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="843.0" layoutY="155.0" text="Autores:" textFill="WHITE">
+            <font>
+                <Font name="Harrington" size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="843.0" layoutY="313.0" text="Titulos" textFill="WHITE">
+            <font>
+                <Font name="Harrington" size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="844.0" layoutY="528.0" text="Copias Disponibles:" textFill="WHITE">
+            <font>
+                <Font name="Harrington" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="label1" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="843.0" layoutY="192.0" prefHeight="110.0" prefWidth="342.0" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="label3" layoutX="843.0" layoutY="565.0" prefHeight="65.0" prefWidth="342.0" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Arial" size="30.0" />
+            </font>
+        </Label>
+        <Label fx:id="label2" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="843.0" layoutY="356.0" prefHeight="139.0" prefWidth="342.0" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Arial" size="24.0" />
+            </font>
+        </Label>
     </children>
 </AnchorPane>

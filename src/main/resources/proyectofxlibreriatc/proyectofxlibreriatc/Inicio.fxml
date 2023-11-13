@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofxlibreriatc.proyectofxlibreriatc.Controllers">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #1a1a1a;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofxlibreriatc.proyectofxlibreriatc.ControllerInicio">
     <children>
         <AnchorPane prefHeight="213.0" prefWidth="1200.0" style="-fx-background-color: #4a7d4a;">
             <children>
@@ -18,7 +18,7 @@
                         <Font name="Sitka Text" size="42.0" />
                     </font>
                 </Text>
-                <Text fill="WHITE" layoutX="491.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HoloBooks">
+                <Text fill="WHITE" layoutX="467.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VirtualBooks">
                     <font>
                         <Font name="Sitka Text" size="44.0" />
                     </font>

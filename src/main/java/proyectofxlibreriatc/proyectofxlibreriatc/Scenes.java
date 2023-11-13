@@ -2,15 +2,9 @@ package proyectofxlibreriatc.proyectofxlibreriatc;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 public class Scenes extends Application {
@@ -28,9 +22,12 @@ public class Scenes extends Application {
         }
 
         Stage.setResizable(false);
-        //stage.setFullScreen(true);//Pantalla Completa
+        Stage.setTitle("Libreria VirtualBooks");
+        Image icon = new Image("C:\\Users\\santi\\IdeaProjects\\Proyecto Fx - Libreria TC\\src\\logo.png");
+        Stage.getIcons().add(icon);
 
-        /*
+        /*Stage.setFullScreen(true);//Pantalla Completa
+
         Image image = new Image("C:\\Users\\santi\\IdeaProjects\\Proyecto Fx - Libreria TC\\src\\fondo1.png");
         ImageView imageView = new ImageView(image);
         imageView.setFitHeight(300);
