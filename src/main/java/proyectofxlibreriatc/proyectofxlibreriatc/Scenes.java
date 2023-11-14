@@ -10,21 +10,26 @@ import javafx.stage.Stage;
 public class Scenes extends Application {
     @Override
     public void start(Stage Stage) throws Exception {
+        Scene scene1 = null;
         try {
             Parent root = FXMLLoader.load(getClass().getResource("Inicio.fxml"));
-            Scene scene1 = new Scene(root);
+            scene1 = new Scene(root);
             Stage.setScene(scene1);
             Stage.show();
 
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
         Stage.setResizable(false);
         Stage.setTitle("Libreria VirtualBooks");
-        Image icon = new Image("C:\\Users\\santi\\IdeaProjects\\Proyecto Fx - Libreria TC\\src\\logo.png");
+        Image icon = new Image("/logo.png");
         Stage.getIcons().add(icon);
+
+        Stage.setTitle("Libreria"); //Nombre aplicacion
+        Stage.setScene(scene1);
+        Stage.show();
+
 
         /*Stage.setFullScreen(true);//Pantalla Completa
 
@@ -34,11 +39,7 @@ public class Scenes extends Application {
         imageView.setFitWidth(300);
         imageView.setX(440);
         imageView.setY(235);
-        root.getChildren().add(imageView);
-
-        primaryStage.setTitle("Libreria"); //Nombre aplicacion
-        primaryStage.setScene(scene);
-        primaryStage.show();*/
+        root.getChildren().add(imageView);*/
     }
 
     public static void main(String[] args) {
