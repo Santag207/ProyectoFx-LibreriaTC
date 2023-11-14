@@ -32,14 +32,6 @@ public class Menu {
         System.out.println("Libro agregado con éxito a la biblioteca.");
     }*/
 
-  /* Clasificaciones
-        System.out.println("Clasificaciones:");
-        System.out.println("1. Programación");
-        System.out.println("2. Ficción");
-        System.out.println("3. Fantasía");
-        System.out.println("4. Ciencia ficción");
-        System.out.println("5. Misterio");*/
-
     public List<String> obtenerLibrosPorClasificacion(String clasificacion) {
         List<Libro> librosPorClasificacion = biblioteca.buscarPorClasificacion(clasificacion);
         List<String> titulosLibros = new ArrayList<>();
