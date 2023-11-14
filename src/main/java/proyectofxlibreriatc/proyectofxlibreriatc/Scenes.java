@@ -22,11 +22,11 @@ public class Scenes extends Application {
         }
 
         Stage.setResizable(false);
-        Stage.setTitle("Libreria VirtualBooks");
+        /*Stage.setTitle("Libreria VirtualBooks");
         Image icon = new Image("/logo.png");
-        Stage.getIcons().add(icon);
+        Stage.getIcons().add(icon);*/
 
-        Stage.setTitle("Libreria"); //Nombre aplicacion
+        Stage.setTitle("Libreria VirtualBooks"); //Nombre aplicacion
         Stage.setScene(scene1);
         Stage.show();
 
