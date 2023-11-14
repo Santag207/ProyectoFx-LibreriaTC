@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98390331-dcd2-4d69-9e43-b0aeeda56301" name="Changes" comment="Proyecto commit 4 - Pantallas, metodos, falta error agregar manual no muestra demas escenas">
+    <list default="true" id="98390331-dcd2-4d69-9e43-b0aeeda56301" name="Changes" comment="Proyecto commit 5 ' verificacion (error agregar libro no actualiza BD - no imagenes)'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699850495540</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Proyecto commit 5 ' verificacion (error agregar libro no actualiza BD - no imagenes)'">
+      <created>1699895566806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699895566806</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +160,8 @@
     <MESSAGE value="Proyecto commit 3 - Solucion error cambio escenas" />
     <MESSAGE value="Proyecto commit 3 - Prueba1" />
     <MESSAGE value="Proyecto commit 4 - Pantallas, metodos, falta error agregar manual no muestra demas escenas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proyecto commit 4 - Pantallas, metodos, falta error agregar manual no muestra demas escenas" />
+    <MESSAGE value="Proyecto commit 5 ' verificacion (error agregar libro no actualiza BD - no imagenes)'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proyecto commit 5 ' verificacion (error agregar libro no actualiza BD - no imagenes)'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
